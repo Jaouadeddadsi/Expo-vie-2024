@@ -10,8 +10,10 @@ import SponsorCarasoul from "./components/carasoul/SponsorCarasoul";
 import CopyRight from "./components/CopyRight";
 import Contact from "./components/contact/Contact";
 import VideoPlay from "./components/VideoPlay";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const router = useRouter();
   return (
     <>
       {/* hero section */}
@@ -145,7 +147,12 @@ export default function Home() {
                   md:gap-4
                 "
                 >
-                  <Button label="REGARDEZ Les photos" onClick={() => {}} />
+                  <Button
+                    label="REGARDEZ Les photos"
+                    onClick={() => {
+                      router.push("/galerie");
+                    }}
+                  />
                   <div
                     className="
                     max-w-[400px]
