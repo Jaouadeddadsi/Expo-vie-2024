@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-2xl {
+    background-image: url("https://res.cloudinary.com/dvct0ej2a/image/upload/v1707988811/expo-vie/bg-expo-1_nxgti4.jpg");
+  }
+  .bg-mission {
+    background-image: url("https://res.cloudinary.com/dvct0ej2a/image/upload/v1708103902/expo-vie/SLIDE-1_1_d8opmn.png");
+  }
+  .bg-sponsor {
+    background-image: url("https://res.cloudinary.com/dvct0ej2a/image/upload/v1708188937/expo-vie/bg-sponsor_qby3im.jpg");
+  }
+  .bg-contact {
+    background-image: url("https://res.cloudinary.com/dvct0ej2a/image/upload/v1708376337/expo-vie/Vector_p2plxc.png");
+  }
+  .bg-header {
+    background-image: url("https://res.cloudinary.com/dvct0ej2a/image/upload/v1708432924/expo-vie/SLIDE-1_1_scqmtb.png");
+  }
+}
